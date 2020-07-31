@@ -21,7 +21,7 @@ public class Menu extends AppCompatActivity {
         cv_supervisiones.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(Menu.this, Supervision.class);
+                Intent intent =new Intent(Menu.this, Supervisiones.class);
                 startActivity(intent);
             }
         });
