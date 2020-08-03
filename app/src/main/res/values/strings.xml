@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">watcher</string>
+    <string-array name="Resultado">
+        <item>(Seleccionar)</item>
+        <item>Sin Novedad</item>
+        <item>ATM Apagado</item>
+        <item>ATM Violentado</item>
+    </string-array>
 </resources>
