@@ -29,6 +29,7 @@
                     android:textStyle="bold"
                     />
                 <TextView
+                    android:id="@+id/tv_abonado"
                     android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -63,6 +64,7 @@
                         android:layout_height="wrap_content">
 
                         <TextView
+                            android:id="@+id/tv_riesgo"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:text="ALTO"
@@ -180,6 +182,19 @@
 
 
                 </androidx.cardview.widget.CardView>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_mapa"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#29C44D"
+                    android:textColor="#fff"
+                    android:text="Atender"/>
+
+
 
                 <androidx.cardview.widget.CardView
                     android:layout_marginTop="10dp"
